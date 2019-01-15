@@ -41,3 +41,35 @@ footer{
     img.desktop{
         width:50%;
         float:right;
+
+/* Start Tablet - Resposive Rule */
+@media all and (min-width: 501px) and (max-width:1399px){
+    
+    div.wrapper  {
+        width: 90%;
+        margin :auto;
+    }
+    img.tablet{
+        width:50%;
+        float:left;
+        margin-right: 2em;
+        
+    }
+    img.desktop, img.phone{
+        display:none;
+    }
+    
+}
+
+/* End Tablet - Resposive Rule */
+
+
+/* Start Phone - Resposive Rule */
+@media all and (max-width: 500px){
+    
+    div.wrapper  {
+        width: 100%;
+        margin :auto;
+    }
+    img.phone{
+        width:100%;
