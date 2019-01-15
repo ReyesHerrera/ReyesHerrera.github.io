@@ -1,1 +1,43 @@
-Style.css
+/* Perla's World Layout Styles*/
+
+/* Start Global Rules */
+html {
+    background-color: #ccc;
+}
+
+div.wrapper  {
+    background-color: #d6c0cc;
+    overflow:auto;
+}
+p { 
+    margin-left: 1em;
+}
+h1,h2,h3 { 
+    margin-left: .5em;
+}
+a {
+    color:crimson;
+    text-decoration: none;
+}
+a:hover {
+    color:dodgerblue;
+    text-decoration: underline;
+}
+footer{
+    clear:both;
+    text-align: center;
+    padding: .75em;
+}
+/* End Global Rules */
+
+/* Start Desktop - Resposive Rule */
+@media all and (min-width: 1400px){
+    
+    div.wrapper  {
+        width: 80%;
+        margin :auto;
+    }
+    
+    img.desktop{
+        width:50%;
+        float:right;
