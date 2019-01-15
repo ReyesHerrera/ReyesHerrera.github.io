@@ -1,4 +1,4 @@
-/* Perla's World Layout Styles*/
+/* Hello World Layout Styles*/
 
 /* Start Global Rules */
 html {
@@ -13,8 +13,7 @@ p {
     margin-left: 1em;
 }
 h1,h2,h3 { 
-    margin-left: 5em;
-    color: #f2f2f2;
+    margin-left: .5em;
 }
 a {
     color:crimson;
@@ -94,4 +93,3 @@ footer{
     
 }
 /* End Phone - Resposive Rule */
-
